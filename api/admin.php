@@ -1,6 +1,6 @@
 <?php
 include_once 'dbconn.php';
-
+ 
 $nam=$_POST['names'];
  $code=$_POST['scode'];
  $password=$_POST['pass'];

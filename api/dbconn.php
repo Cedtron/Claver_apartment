@@ -11,4 +11,5 @@ $database = "claver";
 // $password="Claver20@"; 
 // $database="3998104_claver";
 $conn=new mysqli($servename, $user, $password, $database,);
+
 ?>

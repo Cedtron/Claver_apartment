@@ -3,7 +3,7 @@
 $servename="localhost";
 $user = "root";
 $password = ""; 
-$database = "apart";
+$database = "claver";
 $conn = new mysqli($servename, $user, $password, $database,);
 
 // $servename="fdb33.awardspace.net";
@@ -11,5 +11,5 @@ $conn = new mysqli($servename, $user, $password, $database,);
 // $password="Claver20@"; 
 // $database="3998104_claver";
 // $conn=new mysqli($servename, $user, $password, $database,);
-
+include 'api/sql.php';
 ?>
